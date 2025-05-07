@@ -30,5 +30,5 @@ aaa_merged["level"] = "AAA"
 combined_df = pd.concat([aa_merged, aaa_merged], ignore_index=True)
 
 # Save final combined file
-combined_df.to_csv("minor_league_combined-final.csv", index=False)
-print("✅ minor_league_combined-final.csv created successfully.")
+combined_df.to_csv("minor_league_combined.csv", index=False)
+print("✅ minor_league_combined.csv created successfully.")
